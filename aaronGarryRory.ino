@@ -1,11 +1,3 @@
-
-/*************************************************
-*** The Motion Following Motorized Camera Base ***
-***               by Lindsay Fox               ***
-*************************************************/
-
-// Servor motor
-
 #include <Stepper.h>
 #define STEPS 200
 Stepper myStepper = Stepper(STEPS, 4,5,6,7);
